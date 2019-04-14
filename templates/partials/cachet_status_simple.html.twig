@@ -1,0 +1,10 @@
+{% set status_id = "cachet_"~random() %}
+<div class="cachet_status_lamp" id="{{ status_id }}"></div>
+
+<script type="text/javascript">
+cachet_plugin.setUrl('{{ config.plugins.cachet.cachet_url }}');
+cachet_plugin.statusSimple('#{{ status_id }}');
+</script>
+<style>
+{{ config.plugins.cachet.custom_css }}
+</style>

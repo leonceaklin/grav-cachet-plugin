@@ -1,0 +1,44 @@
+name: Cachet
+version: 1.0.0
+description: "Lets you display your current website status from a Cachet status page"
+icon: server
+author:
+  name: Léonce Aklin
+  email: leonce.aklin@comsimulator.com
+  url: http://comsimulator.com
+homepage: https://github.com/getgrav/grav-plugin-relatedpages
+demo: http://comsimulator.com
+keywords: cachet, plugin
+bugs: https://github.com/getgrav/grav-plugin-relatedpages/issues
+license: MIT
+
+form:
+  validation: loose
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+
+    cachet_url:
+      type: url
+      label: PLUGIN_CACHET.CACHET_URL
+
+    custom_css:
+      type: editor
+      label: PLUGIN_CACHET.CUSTOM_CSS
+      codemirror:
+        mode: 'css'
+        indentUnit: 4
+        autofocus: true
+        indentWithTabs: false
+        lineNumbers: true
+        styleActiveLine: true
+        gutters: ['CodeMirror-lint-markers']
+        lint: true
