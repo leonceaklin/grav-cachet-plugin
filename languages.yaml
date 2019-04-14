@@ -2,3 +2,8 @@ en:
   PLUGIN_CACHET:
     CACHET_URL: Cachet status page URL
     CUSTOM_CSS: Custom CSS
+
+de:
+  PLUGIN_CACHET:
+    CACHET_URL: Cachet Status-Seiten URL
+    CUSTOM_CSS: Eigenes CSS
