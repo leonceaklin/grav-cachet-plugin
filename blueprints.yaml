@@ -6,10 +6,11 @@ author:
   name: Léonce Aklin
   email: leonce.aklin@comsimulator.com
   url: http://comsimulator.com
-homepage: https://github.com/getgrav/grav-plugin-relatedpages
+homepage: https://github.com/leonceaklin/grav-plugin-cachet
 demo: http://comsimulator.com
 keywords: cachet, plugin
-bugs: https://github.com/getgrav/grav-plugin-relatedpages/issues
+bugs: https://github.com/leonceaklin/grav-plugin-cachet/issues
+readme: https://github.com/leonceaklin/grav-plugin-cachet/blob/master/README.md
 license: MIT
 
 form:
